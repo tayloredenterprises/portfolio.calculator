@@ -1,6 +1,12 @@
 # Portfolio Calculator
 
-To use this, modify tags denoted by '<>' in stock_values.py and gsheet_api.py.
+To use this application, do the following:
 
-1. In ghseet_api.py, set the tags to use the desired Google spreadsheet ID
-2. In stock_values.py, set the tags in each endpoint URL with your own API key from Alpha Vantage. 
+1. Modify the tag '<>' in gsheet_api.py to use the desired Google spreadsheet ID.
+2. Modify the endpoint URL's in stock_values.py to include your own Alpha Vantage API key.
+3. Save your Google API client credentials file 'client_secret.json' in the script root directory. 
+4. Enter the required data in the Google Sheet, with the following format:
+
+Column A - Friendly name for stock/commodity/crypto.
+Column B - Five character stock code with dot point separator - i.e. 'NAB.AX'
+Column C - Integer/float value of number of shares/grams of gold/coins owned.
