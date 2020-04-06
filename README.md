@@ -7,6 +7,6 @@ To use this application, do the following:
 3. Save your Google API client credentials file 'client_secret.json' in the script root directory. 
 4. Enter the required data in the Google Sheet, with the following format:
 
-Column A - Friendly name for stock/commodity/crypto.
-Column B - Five character stock code with dot point separator - i.e. 'NAB.AX'
-Column C - Integer/float value of number of shares/grams of gold/coins owned.
+* Column A - Friendly name for stock/commodity/crypto.
+* Column B - Five character stock code with dot point separator - i.e. 'NAB.AX'
+* Column C - Integer/float value of number of shares/grams of gold/coins owned.
